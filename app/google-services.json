@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1062165400455",
+    "firebase_url": "https://antariksh-7a3a3.firebaseio.com",
+    "project_id": "antariksh-7a3a3",
+    "storage_bucket": "antariksh-7a3a3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1062165400455:android:e4ca2e55e716d6a8",
+        "android_client_info": {
+          "package_name": "com.antariksh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1062165400455-b0o0kamot34su9jomaku6kjkt3sdo9ci.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.antariksh",
+            "certificate_hash": "4c8bee6cd891d7f279d3bcf64d0f0d9e0e3b1eb5"
+          }
+        },
+        {
+          "client_id": "1062165400455-c9ofekj9vqi5jfkeh3il2aei2u0kj8cg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJqxQwrX1_xFC_wn12hLTenlTkVlVpViQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1062165400455-c9ofekj9vqi5jfkeh3il2aei2u0kj8cg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

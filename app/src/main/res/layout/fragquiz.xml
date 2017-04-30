@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@null"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="50dp"
+            android:id="@+id/qsn"
+            android:padding="10dp"
+            android:text="1 .Ok Tell Me Some Joke ?"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="25dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                app:cardBackgroundColor="#0d1622"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="12dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:clickable="true"
+                    android:text="hello"
+                    android:id="@+id/cardop1"
+                    android:textAlignment="center"
+                    android:textColor="#fff"
+                    android:textSize="20dp" />
+            </android.support.v7.widget.CardView>
+
+
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                app:cardBackgroundColor="#0d1622"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="12dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:clickable="true"
+                    android:text="hello"
+                    android:id="@+id/cardop2"
+                    android:textAlignment="center"
+                    android:textColor="#fff"
+                    android:textSize="20dp" />
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:id="@+id/op3"
+                android:clickable="true"
+                app:cardBackgroundColor="#0d1622"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="12dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="hello"
+                    android:id="@+id/cardop3"
+                    android:textAlignment="center"
+                    android:textColor="#fff"
+                    android:textSize="20dp" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:id="@+id/op4"
+                android:clickable="true"
+                app:cardBackgroundColor="#0d1622"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="12dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="hello"
+                    android:id="@+id/cardop4"
+                    android:textAlignment="center"
+                    android:textColor="#fff"
+                    android:textSize="20dp" />
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="200dp"
+
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp">
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

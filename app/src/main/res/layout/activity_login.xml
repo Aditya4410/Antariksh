@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginback"
+    tools:context="com.antariksh.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_above="@+id/eswaach"
+            android:src="@drawable/title"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:id="@+id/linearlayout"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:padding="25dp"
+            tools:layout_editor_absoluteY="8dp"
+            tools:layout_editor_absoluteX="8dp">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTextEmail"
+                android:layout_weight="1"
+                android:inputType="textEmailAddress"
+                android:textSize="15sp"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:fontFamily="monospace"
+                android:background="@null"
+                android:hint="Email"
+                android:textColorHint="@color/white"
+                />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/seperator" />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:textSize="15sp"
+                android:hint="Password"
+                android:textColorHint="@color/white"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:background="@null"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:id="@+id/editTextPassword"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/seperator" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonLogin"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/mybutton"
+                android:text="LogIn"
+                android:elevation="8dp"
+                android:textColor="@color/white"
+                /></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/forgotPassword"
+                    android:text="Forgot Password"
+                    android:layout_weight="1"
+                    android:textSize="15dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"/>
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:background="@color/seperator" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/newRegistration"
+                    android:layout_weight="1"
+                    android:text="Register"
+                    android:textSize="15dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"/></LinearLayout>
+
+            <com.facebook.login.widget.LoginButton
+                android:layout_width="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/loginfb"/>
+        </LinearLayout>
+
+
+</RelativeLayout>
